@@ -1,0 +1,12 @@
+name: SimpleSudo
+version: '1.0'
+main: tw.ch1ck3n.simplesudo.SimpleSudo
+api-version: '1.20'
+commands:
+  sudo:
+    description: Run commands as another player.
+    permission: simplesudo.use
+
+permissions:
+  simplesudo.use:
+    default: op
